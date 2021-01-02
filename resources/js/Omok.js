@@ -59,7 +59,7 @@ for(let i=0; i<21; i++){
             img.dataset.col = j;
             line.append(img);
         }else if(i==0 || i==20 || j==0 || j==20){
-            img.src = "resources/image/board/out3.JPG";
+            img.src = "resources/image/board/out3.jpg";
             board[i][j] = img;
             img.style.cursor = "default"
             img.className = "noclick";
